@@ -1,4 +1,4 @@
-FROM gcc:13-alpine
+FROM gcc:13.2
 RUN apk add --no-cache gcc musl-dev make
 COPY . /backend_elecam
 WORKDIR /backend_elecam
